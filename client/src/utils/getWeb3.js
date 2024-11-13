@@ -16,7 +16,7 @@ const getWeb3 = () =>
           reject(error);
         }
       }
-      // Legacy dapp browsers...
+      // Legacy dapp browsers....
       else if (window.web3) {
         // Use Mist/MetaMask's provider.
         const web3 = window.web3;
